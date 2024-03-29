@@ -1,0 +1,102 @@
+.navbar_lists ul .home_menu_li {
+    padding: 10px 20px !important;
+    color: white;
+}
+
+.home_link {
+    padding: 10px 20px !important;
+    color: yellow !important;
+    font-weight: normal;
+}
+
+.home_link:hover {
+    color: yellow !important;
+    border-bottom: 1px solid yellow !important;
+}
+
+.navbar_lists ul .home_menu_li:hover {
+    cursor: pointer;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    /* font-weight: 800 !important; */
+}
+
+.car_logo {
+    height: 70px
+}
+
+.contact_link {
+    padding: 10px 20px !important;
+    color: black !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: none !important;
+    border: 1px solid transparent;
+    margin: 0px 20px !important;
+    border-radius: 7px;
+}
+
+.contact_link:hover {
+    background-color: transparent !important;
+    color: white !important;
+    transition: 0.2s ease-in-out;
+    border: 1px solid white !important;
+    border-radius: 7px !important;
+}
+
+.mobile-menu {
+    padding-left: 0px;
+    z-index: 99;
+    background-color: rgba(128, 128, 128, 0.7);
+   margin-top: 300px;
+    width: 100%;
+}
+
+.mobile-menu li {
+    /* padding: 5px 0; */
+    /* Added padding */
+}
+
+.mobile-menu .mobile_list {
+    font-size: 13px;
+    color: white !important;
+    padding: 10px 20px;
+    /* Changed padding */
+}
+
+.mobile-menu .mobile_list:hover {
+    cursor: pointer;
+    color: black !important;
+    font-weight: 700;
+}
+
+/* ********************************* */
+@media screen and (max-width:768px) {
+    .nav-logo .car_logo {
+        height: 40px;
+        ;
+    }
+
+    .nav-logo .nav_brand {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .navbar_lists {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .navbar_toggler {
+        display: none;
+    }
+    .mobile-menu{
+        display: none;
+    }
+
+    .toggle_row {
+        display: none;
+    }
+
+
+}

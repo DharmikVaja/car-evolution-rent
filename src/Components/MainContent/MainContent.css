@@ -1,0 +1,68 @@
+.hero_texts {
+    font-size: 70px !important;
+
+}
+
+.hero_explore {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 225px;
+    padding: 5px 0px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_dot_orange {
+    color: orange;
+
+}
+
+.hero_dot {
+    color: white
+}
+
+.hero_play {
+    align-items: center;
+}
+
+.arrow_btn {
+    height: 50px
+}
+
+.pause-play_btn {
+    height: 50px
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding-top: 0px
+    }
+    .hero_text {
+        margin: 0px;
+        padding: 0px 30px;
+    }
+
+    .hero_text .hero_texts {
+        font-size: 30px !important;
+
+    }
+
+    .hero_explore {
+        width: 140px;
+        padding: 3px 3px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .arrow_btn {
+        height: 37px
+    }
+
+    .hero_play .pause-play_btn {
+        height: 30px
+    }
+
+    .see_video_text {
+        font-size: 10px;
+    }
+}

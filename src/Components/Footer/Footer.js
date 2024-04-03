@@ -38,41 +38,41 @@ const Footer = () => {
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Our Products</div>
               <ul className="m-0 p-2">
-                <li className="py-1">Career</li>
-                <li className="py-1">Car</li>
-                <li className="py-1">Package</li>
-                <li className="py-1">Features</li>
-                <li className="py-1">Priceline</li>
+                <li className="py-1 cursorPointer">Career</li>
+                <li className="py-1 cursorPointer">Car</li>
+                <li className="py-1 cursorPointer">Package</li>
+                <li className="py-1 cursorPointer">Features</li>
+                <li className="py-1 cursorPointer">Priceline</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Resource</div>
               <ul className="m-0 p-2">
-                <li className="py-1">Download</li>
-                <li className="py-1">Help centre</li>
-                <li className="py-1">Guides</li>
-                <li className="py-1">Partner network</li>
-                <li className="py-1">Cruises</li>
-                <li className="py-1">Developer</li>
+                <li className="py-1 cursorPointer">Download</li>
+                <li className="py-1 cursorPointer">Help centre</li>
+                <li className="py-1 cursorPointer">Guides</li>
+                <li className="py-1 cursorPointer">Partner network</li>
+                <li className="py-1 cursorPointer">Cruises</li>
+                <li className="py-1 cursorPointer">Developer</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6"> About RentCars</div>
               <ul className="m-0 p-2">
-                <li className="py-1">Why choose us</li>
-                <li className="py-1">Our Story</li>
-                <li className="py-1">Investor Relations</li>
-                <li className="py-1">Press Center</li>
-                <li className="py-1">Advertise</li>
+                <li className="py-1 cursorPointer">Why choose us</li>
+                <li className="py-1 cursorPointer">Our Story</li>
+                <li className="py-1 cursorPointer">Investor Relations</li>
+                <li className="py-1 cursorPointer">Press Center</li>
+                <li className="py-1 cursorPointer">Advertise</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Follow Us</div>
               <div className="socials_footer d-flex flex-row m-0 py-2">
                 <div className=" social_icons">
-                  <FaFacebook className="s_icon" />
-                  <FaInstagram className="s_icon" />
-                  <FaYoutube className="s_icon" />
+                  <FaFacebook className="s_icon cursorPointer" />
+                  <FaInstagram className="s_icon cursorPointer" />
+                  <FaYoutube className="s_icon cursorPointer" />
                 </div>
               </div>
             </div>

@@ -1,71 +1,96 @@
 /* --------------------------------------------Fonts COnnectivity------------------------------------------------------------------- */
 @font-face {
-    font-family: Poppins-Regular;
-    src: url("../src/assets/fonts/Poppins-Regular.ttf");
-  }
-  @font-face {
-    font-family: Poppins-Medium;
-    src: url("../src/assets/fonts/Poppins-Medium.ttf");
-  }
-  @font-face {
-    font-family: Poppins-Bold;
-    src: url("../src/assets/fonts/Poppins-Bold.ttf");
-  }
-  @font-face {
-    font-family: Poppins-SemiBold;
-    src: url("../src/assets/fonts/Poppins-SemiBold.ttf");
-  }
-  /* -------------------------------------------------Ends Fonts Connectivity-------------------------------------------------------------- */
-  
-  /* ------------------------------------------------Default CSS--------------------------------------------------------------- */
-  
-  :root {
-    --regular: Poppins-Regular;
-    --medium: Poppins-Medium;
-    --Bold: Poppins-Bold;
-    --SemiBold: Poppins-SemiBold;
-  }
-  :root {
-    --primary-color: rgba(255, 174, 9, 1);
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .container {
-    margin: 0 auto;
-  }
-  body {
-    font-family: var(--regular);
-    overflow-x: hidden;
-  }
-  .cursorPointer{
-    cursor: pointer;
-  }
-  ul {
-    list-style: none;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a {
-    text-decoration: none;
-  }
-  .spacer-y {
-    padding: 70px 0;
-  }
-  .content-wrapper {
-    position: relative; /* Ensure content stays within the bounds of home-container */
-    padding-top: 200px; /* Adjust this value based on your header's height */
-  }
-  .home_page{
-    height:100vh;
-    /* overflow-y: hidden !important; */
-  }
-  /* --------------------------------------------------ENd Default CSS------------------------------------------------------------- */
-  
+  font-family: Poppins-Regular;
+  src: url("../src/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../src/assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../src/assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../src/assets/fonts/Poppins-SemiBold.ttf");
+}
+
+/* -------------------------------------------------Ends Fonts Connectivity-------------------------------------------------------------- */
+
+/* ------------------------------------------------Default CSS--------------------------------------------------------------- */
+
+:root {
+  --regular: Poppins-Regular;
+  --medium: Poppins-Medium;
+  --Bold: Poppins-Bold;
+  --SemiBold: Poppins-SemiBold;
+}
+
+:root {
+  --primary-color: #1572d3;
+  --secondary-color: #ecf5ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--regular);
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  text-decoration: none;
+}
+
+.spacer-y {
+  padding: 70px 0;
+}
+
+.content-wrapper {
+  position: relative;
+  /* Ensure content stays within the bounds of home-container */
+  padding-top: 200px;
+  /* Adjust this value based on your header's height */
+}
+
+.home_page {
+  height: 100vh;
+  overflow-y: auto !important;
+}
+
+.content_middle::after {
+  padding: 10px;
+}
+
+/* --------------------------------------------------ENd Default CSS------------------------------------------------------------- */

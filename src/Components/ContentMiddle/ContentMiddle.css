@@ -1,0 +1,31 @@
+.con_midd_text {
+    font-size: 12px;
+}
+
+.grp_4 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.hiw_heading {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 10px;
+    width: auto;
+    max-width: max-content;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+}
+
+.img_grp {
+    height: 100px;
+    width: 100px;
+}

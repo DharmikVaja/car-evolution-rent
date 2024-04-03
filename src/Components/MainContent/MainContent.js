@@ -16,11 +16,11 @@ const MainContent = ({
     <div className="container pt-5">
       <div className="hero_text mt-5">
         <p className="text-light hero_texts pt-5 m-0 ">{currentHero.text1}</p>
-        <p className="text-light  hero_texts m-0 pb-5">{currentHero.text2}</p>
+        <p className="text-light hero_texts m-0 pb-5">{currentHero.text2}</p>
       </div>
       <div className="hero_explore  d-flex flex-row ">
         <p className="text-dark m-0 px-1 ">Explore the features</p>
-        <img src={ArrowBtn} alt="" className="arrow_btn" />
+        <img src={ArrowBtn} alt="" className="arrow_btn cursorPointer" />
       </div>
       <div className="hero_dot_play d-flex flex-row mt-4 justify-content-between">
         <ul className="hero_dots d-flex flex-row mt-5">

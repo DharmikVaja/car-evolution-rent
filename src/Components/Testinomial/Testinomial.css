@@ -1,0 +1,102 @@
+.carousel-inner {
+    height: 538px;
+}
+
+.carousel-control-prev {
+    height: 400px;
+    /* display: none; */
+    color: gray !important;
+}
+
+.carousel-control-next {
+    height: 400px;
+    color: gray !important;
+}
+
+.quote_img_grp {}
+
+.testinomial_page {
+    background-color: #ECF5FF;
+
+}
+
+.testinomial_heading {
+    color: var(--primary-color);
+    background-color:  rgb(217, 242, 251);
+    padding: 10px 10px;
+    width: auto;
+    max-width: max-content;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.quote_img1 {
+    padding: 30px 30px !important;
+    height: 350px;
+    top: 100px;
+    right: 100px;
+    z-index: 1;
+    position: relative;
+    width: 350px;
+}
+
+.quote_img2 {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    z-index: 1;
+    padding: 30px 30px !important;
+    height: 350px;
+    width: 350px;
+
+}
+
+
+.shadow-1-strong {
+    z-index: 10;
+    height: 190px;
+    width: 180px
+}
+
+.mdb_card {
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 30px 30px;
+    background-color: rgba(135, 207, 235, 0.2);
+    border-radius: 20px;
+
+
+}
+
+.mb_container {
+    /* margin-top: -150px; */
+}
+
+@media screen and (max-width: 991px) {
+    .quote_img1 {
+        height: 150px;
+        z-index: 1;
+        position: relative;
+        width: 200px;
+    }
+
+    .quote_img2 {
+        height: 150px;
+        z-index: 1;
+        position: relative;
+        width: 200px;
+
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .quote_img1 {
+        display: none;
+    }
+
+    .quote_img2 {
+        display: none;
+
+    }
+}

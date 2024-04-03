@@ -5,6 +5,10 @@ import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import MainContent from "./Components/MainContent/MainContent";
 import ContentMiddle from "./Components/ContentMiddle/ContentMiddle";
+import WhyUs from "./Components/WhyUs/WhyUs";
+import PopularDeal from "./Components/PopularDeal/PopularDeal";
+import Testinomial from "./Components/Testinomial/Testinomial";
+import Download from "./Components/DownloadBottom/Download";
 
 function App() {
   const [heroCount, setHeroCount] = useState(0);
@@ -25,7 +29,7 @@ function App() {
   return (
     <>
       <div className="home_page">
-        <Navbar  />
+        <Navbar />
         <Background playStatus={playStatus} heroCount={heroCount} />
         <MainContent
           setPlayerStatus={setPlayerStatus}
@@ -37,6 +41,10 @@ function App() {
         />
       </div>
       <ContentMiddle />
+      <WhyUs />
+      <PopularDeal />
+      <Testinomial />
+      <Download/>
     </>
   );
 }

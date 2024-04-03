@@ -1,0 +1,26 @@
+.pop_deal_icon_text{
+    font-size: 12px
+}
+.pop_deal_card{
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.rating_number{
+    font-size: 14px;
+}
+.card_img{
+    height: 150px !important;
+    min-height: 100px;
+    width: 250px;
+    min-width: 150px;
+}
+.show_vehicle{
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    padding: 8px 30px;
+    font-size: 14px;
+}
+.show_vehicle:hover{
+    background-color: #0d6efd;
+    color: white!important;
+    border: 2px solid transparent ;
+}

@@ -29,3 +29,11 @@
     height: 100px;
     width: 100px;
 }
+.bg_right{
+    height: 350px;
+    min-height: 200px;
+    width: auto;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.2;
+}

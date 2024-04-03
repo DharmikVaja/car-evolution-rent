@@ -32,8 +32,13 @@
 
 :root {
   --primary-color: #1572d3;
-  --secondary-color: #ecf5ff;
+  --secondary-color: #d1e5fb;
 }
+
+/* row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+} */
 
 * {
   margin: 0;

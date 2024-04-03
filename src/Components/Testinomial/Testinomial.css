@@ -13,16 +13,20 @@
     color: gray !important;
 }
 
-.quote_img_grp {}
 
 .testinomial_page {
     background-color: #ECF5FF;
 
 }
 
+.testinomial_row {
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
 .testinomial_heading {
     color: var(--primary-color);
-    background-color:  rgb(217, 242, 251);
+    background-color: var(--secondary-color);
     padding: 10px 10px;
     width: auto;
     max-width: max-content;
@@ -32,13 +36,13 @@
 }
 
 .quote_img1 {
-    padding: 30px 30px !important;
-    height: 350px;
+    padding: 30px 30px;
+    height: 250px;
     top: 100px;
     right: 100px;
     z-index: 1;
     position: relative;
-    width: 350px;
+    width: 250px;
 }
 
 .quote_img2 {
@@ -46,9 +50,9 @@
     bottom: 50px;
     left: 100px;
     z-index: 1;
-    padding: 30px 30px !important;
-    height: 350px;
-    width: 350px;
+    padding: 30px 30px;
+    height: 250px;
+    width: 250px;
 
 }
 
@@ -68,9 +72,7 @@
 
 }
 
-.mb_container {
-    /* margin-top: -150px; */
-}
+
 
 @media screen and (max-width: 991px) {
     .quote_img1 {

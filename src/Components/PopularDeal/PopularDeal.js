@@ -77,7 +77,7 @@ const PopularDeal = () => {
                       </div>
                     </div>
                     <Button
-                      className="btn w-100 mt-3 text-center align-content-center "
+                      className="btn w-100 mt-3 text-center align-content-center rounded-3 mx-0"
                       type="button"
                       variant="primary"
                     >
@@ -137,7 +137,7 @@ const PopularDeal = () => {
                       </div>
                     </div>
                     <Button
-                      className="btn w-100 mt-3 text-center align-content-center "
+                      className="btn w-100 mt-3 text-center align-content-center rounded-3 mx-0"
                       type="button"
                       variant="primary"
                     >
@@ -197,7 +197,7 @@ const PopularDeal = () => {
                       </div>
                     </div>
                     <Button
-                      className="btn w-100 mt-3 text-center align-content-center "
+                      className="btn w-100 mt-3 text-center align-content-center rounded-3 mx-0"
                       type="button"
                       variant="primary"
                     >
@@ -257,7 +257,7 @@ const PopularDeal = () => {
                       </div>
                     </div>
                     <Button
-                      className="btn w-100 mt-3 text-center align-content-center "
+                      className="btn w-100 mt-3 text-center align-content-center rounded-3 mx-0"
                       type="button"
                       variant="primary"
                     >

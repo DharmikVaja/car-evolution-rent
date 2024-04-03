@@ -5,10 +5,14 @@ import img1 from "../../assets/images/hiw-img/ icon _car_ (1).png";
 import img2 from "../../assets/images/hiw-img/ icon _car_ (2).png";
 import img3 from "../../assets/images/hiw-img/ icon _car_ (3).png";
 import carFrame from "../../assets/images/hiw-img/Frame 29.png";
+import BgRight from "../../assets/images/hiw-img/Group.png";
 
 const ContentMiddle = () => {
   return (
     <div className="content_middle">
+      <div className="col-12 d-flex justify-content-end">
+        <img src={BgRight} alt="" className="bg_right img" />
+      </div>
       <div className="container">
         <div className="row my-5 d-flex mx-5 grp_4">
           <div className="col-lg-3 col-sm-12 col-12 ">
@@ -77,15 +81,16 @@ const ContentMiddle = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-4 col-sm-12 d-flex flex-wrap justify-content-center text-center">
+          <div className="col-lg-4 col-md-4 col-sm-12 d-flex flex-wrap justify-content-center text-center">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <img src={img3} alt="" className="img-fluid img_grp mb-3" />
               <p className="fs-5 m-0">Book your Car </p>
               <p className="fs-6 text-secondary">
-                Book your car and we will deliver it directly to you
+              Book your car and we will deliver it directly to you
               </p>
             </div>
           </div>
+          
         </div>
       </div>
       <img src={carFrame} className="img img-fluid w-100 pt-5" alt="" />

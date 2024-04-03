@@ -1,0 +1,18 @@
+.footer_page{
+    background-color: #051c34;
+}
+.footer_rentcars{
+    height: 25px;
+}
+.footer_p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+}
+.s_icon{
+    font-size: 20px ;
+    margin: 0px 5px;
+}
+.footer_text_links{
+    font-size: 14px;
+}

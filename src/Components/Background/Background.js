@@ -7,7 +7,13 @@ import image3 from "../../assets/images/image3.png";
 const Background = ({ playStatus, heroCount }) => {
   if (playStatus) {
     return (
-      <video src={video1} className="background fade-in" autoPlay loop muted></video>
+      <video
+        src={video1}
+        className="background fade-in"
+        autoPlay
+        loop
+        muted
+      ></video>
     );
   } else if (heroCount === 0) {
     return <img src={image1} className="background fade-in" alt="" />;

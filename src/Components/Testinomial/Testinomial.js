@@ -15,8 +15,8 @@ import imgQuote2 from "../../assets/images/why-us-img/img_q2.png";
 
 function Testinomial() {
   return (
-    <div>
-      <div className="spacer-y"></div>
+    <div className="testinomial_comp py-4">
+      {/* <div className="spacer-y"></div> */}
       <div className="row testinomial_row">
         <div className="justify-content-center ">
           <div className="col-12 d-flex">

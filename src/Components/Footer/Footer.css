@@ -16,3 +16,13 @@
 .footer_text_links{
     font-size: 14px;
 }
+.footer_link:hover{
+    /* border-bottom:1px solid white; */
+    font-weight: bold;
+    color: gray;
+}
+.social_icons_link:hover{
+    transform: scale(1.1);
+    color: gray;
+    
+}

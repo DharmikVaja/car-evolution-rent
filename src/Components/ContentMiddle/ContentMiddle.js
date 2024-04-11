@@ -9,43 +9,46 @@ import BgRight from "../../assets/images/hiw-img/Group.png";
 
 const ContentMiddle = () => {
   return (
-    <div className="content_middle">
+    <div className="content_middle hiw_color">
       <div className="col-12 d-flex justify-content-end">
         <img src={BgRight} alt="" className="bg_right img" />
       </div>
       <div className="container">
         <div className="row my-5 d-flex mx-5 grp_4">
-          <div className="col-lg-3 col-sm-12 col-12 ">
+          <div className="col-lg-3 col-sm-12 col-12 d-flex justify-content-between">
             <div className="d-flex align-items-center cursorPointer py-2">
-              <CiLocationOn className="fs-2" />
-              <div>
+              <CiLocationOn className="fs-2 pe-2 " />
+              <div className="fw-normal">
                 <p className="m-0">Location</p>
                 <p className="con_midd_text m-0">Search your location</p>
               </div>
             </div>
+            <div className="cmiddle_separate"></div>
           </div>
-          <div className="col-lg-3 col-sm-12 col-12 ">
+          <div className="col-lg-3 col-sm-12 col-12 d-flex justify-content-between">
             <div className="d-flex align-items-center cursorPointer py-2">
-              <CiLocationOn className="fs-2" />
-              <div>
+              <CiLocationOn className="fs-2 pe-2 " />
+              <div className="fw-normal">
                 <p className="m-0">Pickup the date</p>
                 <p className="con_midd_text m-0">Tue 15 Feb, 09:00</p>
               </div>
             </div>
+            <div className="cmiddle_separate"></div>
           </div>
-          <div className="col-lg-3 col-sm-12 col-12 ">
+          <div className="col-lg-3 col-sm-12 col-12 d-flex justify-content-between">
             <div className="d-flex align-items-center cursorPointer py-2">
-              <CiLocationOn className="fs-2" />
-              <div>
+              <CiLocationOn className="fs-2 pe-2 " />
+              <div className="fw-normal">
                 <p className="m-0">Return date</p>
                 <p className="con_midd_text m-0">Thu 16 Feb, 11:00</p>
               </div>
             </div>
+            <div className="cmiddle_separate"></div>
           </div>
           <div className="col-lg-3 col-sm-12 col-12 d-flex justify-content-end py-3">
             <button
               type="button"
-              className="btn btn-primary w-100 py-2 rounded-2 "
+              className="btn search_btn w-75 py-2 rounded-2 "
             >
               Search
             </button>
@@ -86,14 +89,13 @@ const ContentMiddle = () => {
               <img src={img3} alt="" className="img-fluid img_grp mb-3" />
               <p className="fs-5 m-0">Book your Car </p>
               <p className="fs-6 text-secondary">
-              Book your car and we will deliver it directly to you
+                Book your car and we will deliver it directly to you
               </p>
             </div>
           </div>
-          
         </div>
       </div>
-      <img src={carFrame} className="img img-fluid w-100 pt-5" alt="" />
+      <img src={carFrame} className="img img-fluid w-100 bg-white py-2" alt="" />
     </div>
   );
 };

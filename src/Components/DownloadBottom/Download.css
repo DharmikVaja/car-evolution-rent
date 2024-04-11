@@ -10,15 +10,19 @@
 }
 
 .down_img {
-    height: 45px
+    height: 45px;
+    border-radius:10px;
 }
 
 .down_img:hover {
-    opacity: 0.9
+    /* opacity: 0.9; */
+    transform: scale(1.02);
+    border-radius:10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .down_phone{
     height:350px;
-    width:300px;
+    width:330px;
     min-height: 100px;
     min-width: auto;
     margin-bottom: -17px;

@@ -35,6 +35,9 @@
   --secondary-color: #d1e5fb;
 }
 
+body{
+  background-color: rgba(128, 128, 128, 0.05);
+}
 /* row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;

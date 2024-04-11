@@ -38,41 +38,41 @@ const Footer = () => {
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Our Products</div>
               <ul className="m-0 p-2">
-                <li className="py-1 cursorPointer">Career</li>
-                <li className="py-1 cursorPointer">Car</li>
-                <li className="py-1 cursorPointer">Package</li>
-                <li className="py-1 cursorPointer">Features</li>
-                <li className="py-1 cursorPointer">Priceline</li>
+                <li className="py-1 cursorPointer footer_link">Career</li>
+                <li className="py-1 cursorPointer footer_link">Car</li>
+                <li className="py-1 cursorPointer footer_link">Package</li>
+                <li className="py-1 cursorPointer footer_link">Features</li>
+                <li className="py-1 cursorPointer footer_link">Priceline</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Resource</div>
               <ul className="m-0 p-2">
-                <li className="py-1 cursorPointer">Download</li>
-                <li className="py-1 cursorPointer">Help centre</li>
-                <li className="py-1 cursorPointer">Guides</li>
-                <li className="py-1 cursorPointer">Partner network</li>
-                <li className="py-1 cursorPointer">Cruises</li>
-                <li className="py-1 cursorPointer">Developer</li>
+                <li className="py-1 cursorPointer footer_link">Download</li>
+                <li className="py-1 cursorPointer footer_link">Help centre</li>
+                <li className="py-1 cursorPointer footer_link">Guides</li>
+                <li className="py-1 cursorPointer footer_link">Partner network</li>
+                <li className="py-1 cursorPointer footer_link">Cruises</li>
+                <li className="py-1 cursorPointer footer_link">Developer</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6"> About RentCars</div>
               <ul className="m-0 p-2">
-                <li className="py-1 cursorPointer">Why choose us</li>
-                <li className="py-1 cursorPointer">Our Story</li>
-                <li className="py-1 cursorPointer">Investor Relations</li>
-                <li className="py-1 cursorPointer">Press Center</li>
-                <li className="py-1 cursorPointer">Advertise</li>
+                <li className="py-1 cursorPointer footer_link">Why choose us</li>
+                <li className="py-1 cursorPointer footer_link">Our Story</li>
+                <li className="py-1 cursorPointer footer_link">Investor Relations</li>
+                <li className="py-1 cursorPointer footer_link">Press Center</li>
+                <li className="py-1 cursorPointer footer_link">Advertise</li>
               </ul>
             </div>
             <div className="col-12 col-lg-3">
               <div className="p-2 fw-bold fs-6">Follow Us</div>
               <div className="socials_footer d-flex flex-row m-0 py-2">
                 <div className=" social_icons">
-                  <FaFacebook className="s_icon cursorPointer" />
-                  <FaInstagram className="s_icon cursorPointer" />
-                  <FaYoutube className="s_icon cursorPointer" />
+                  <FaFacebook className="s_icon cursorPointer social_icons_link" />
+                  <FaInstagram className="s_icon cursorPointer social_icons_link" />
+                  <FaYoutube className="s_icon cursorPointer social_icons_link" />
                 </div>
               </div>
             </div>

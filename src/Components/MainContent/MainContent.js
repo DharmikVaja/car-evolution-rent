@@ -50,7 +50,8 @@ const MainContent = ({
           </li>
         </ul>
         <div className="hero_play d-flex flex-row ">
-          <img className="pause-play_btn cursorPointer"
+          <img
+            className="pause-play_btn cursorPointer"
             onClick={() => {
               setPlayerStatus(!playStatus);
             }}

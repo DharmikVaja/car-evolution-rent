@@ -5,7 +5,7 @@
 
 .hero_explore {
     background-color: rgba(255, 255, 255, 0.6);
-    width: 225px;
+    width: 210px;
     padding: 5px 0px;
     border-radius: 50px;
     justify-content: center;
@@ -49,7 +49,7 @@
     }
 
     .hero_explore {
-        width: 140px;
+        width: 138px;
         padding: 3px 3px;
         margin-left: 30px;
         font-size: 12px;

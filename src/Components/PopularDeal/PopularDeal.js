@@ -13,6 +13,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 import "./PopularDeals.css";
 import { Link } from "react-router-dom";
+import CarData from "./PopularDealsCarData.js";
 
 const PopularDeal = () => {
   return (
@@ -28,6 +29,72 @@ const PopularDeal = () => {
           </div>
         </div>
         <div className="row py-5 d-flex justify-content-center">
+        {/*  */}
+        {CarData.map((car, id) => {
+          <div className="col-lg-3 col-md-6 col-sm-12 col-12 my-2" key={id}>
+            <Card className="pop_deal_card rounded-3 d-flex flex-column align-items-center">
+            <img
+                variant="top"
+                src={car.img}
+                className="p-3 card_img img-fluid"
+                alt=""
+              />
+              <div className="px-3 text-center">
+                <div className="fw-bold py-1">{car.carName}</div>
+                <div className="d-flex flex-row fs-6 justify-content-center align-items-center">
+                  <FaStar className="fs-5 me-2" style={{ fill: "#FAD001" }} />
+                  <span className="fw-bold rating_number">{car.rating}</span>{" "}
+                  <span className="text-secondary pop_deal_icon_text">
+                    {car.reviews}
+                  </span>
+                </div>
+                <div className="row d-flex text-secondary py-3">
+                  <div className="col-7">
+                    <span className="pop_deal_icon_text">
+                      <FaRegUser />4 Passengers
+                    </span>
+                  </div>
+                  <div className="col-5">
+                    <span className="pop_deal_icon_text">
+                      <GiGearStickPattern /> Auto
+                    </span>
+                  </div>
+                  <div className="col-7">
+                    <span className="pop_deal_icon_text">
+                      <TiWeatherWindyCloudy /> AIr conditioning
+                    </span>
+                  </div>
+                  <div className="col-5">
+                    <span className="pop_deal_icon_text">
+                      <GiCarDoor /> 4 doors
+                    </span>
+                  </div>
+                </div>
+                <hr className="w-100" />
+                <div className="list-group-flush w-100">
+                  <div className="py-3">
+                    <div className="d-flex justify-content-between">
+                      <div className="fs-6">Price</div>
+                      <div>
+                        <span className="fw-bold">$1,800 </span>/ day
+                      </div>
+                    </div>
+                    <Button
+                      className="btn w-100 mt-3 text-center align-content-center rounded-3 mx-0"
+                      type="button"
+                      variant="primary"
+                    >
+                      Rent Now <MdOutlineKeyboardDoubleArrowRight />
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>;
+        })}
+
+        {/*  */}
+        
           <div className="col-lg-3 col-md-6 col-sm-12 col-12 my-2">
             <Card className="pop_deal_card rounded-3 d-flex flex-column align-items-center">
               <img
@@ -269,8 +336,10 @@ const PopularDeal = () => {
             </Card>
           </div>
         </div>
-        <div className="col-12 d-flex justify-content-center">
-          <Link to="/" className="text-black show_vehicle rounded-2 my-2">Show all Vehicles <MdOutlineKeyboardDoubleArrowRight/></Link>
+        <div className="col-12 d-flex justify-content-center pb-5">
+          <Link to="/" className="text-black show_vehicle rounded-2 my-2 ">
+            Show all Vehicles <MdOutlineKeyboardDoubleArrowRight />
+          </Link>
         </div>
       </div>
     </div>
